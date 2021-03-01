@@ -1,7 +1,8 @@
 import React from "react";
 import { View } from "react-native";
-
+import Circle from './components/Circle';
 import dimensions from '../data/constants';
+
 const { width, height } = dimensions;
 
 const BODY_DIAMETER = Math.floor(width * .02);
@@ -20,7 +21,6 @@ const Circle = ({ body, bgColor, borderColor }) => {
   }]} />;
 
 };
-
 export default Circle;
 
 const styles = {
