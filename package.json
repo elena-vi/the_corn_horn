@@ -6,7 +6,7 @@
     "start": "node ./bin/www",
     "cy:run": "./node_modules/.bin/cypress run",
     "cy:open": "./node_modules/.bin/cypress open",
-    "test": "start-server-and-test start http://localhost:3000 cy:run"
+    "test": "start-server-and-test start http://localhost:3000 cy:run",
     "test-local": "start-server-and-test start http://localhost:3000 cy:open"
   },
   "dependencies": {
