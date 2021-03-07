@@ -37,7 +37,7 @@ window.addEventListener('load', function () {
       lineWidth: 1
     }
   });
-  ball.addMovementToBall()
+  // ball.addMovementToBall()
   function addMovementToBall() {
     document.addEventListener("keydown", event => {
       const { x, y } = this.ball.velocity;
